@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GitHub.iml" filepath="$PROJECT_DIR$/GitHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dDBank/dDBank.iml" filepath="$PROJECT_DIR$/dDBank/dDBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dDBank/dDBank.iml" filepath="$PROJECT_DIR$/dDBank/dDBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dDPAD/dDPAD.iml" filepath="$PROJECT_DIR$/dDPAD/dDPAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dDPAD/dDPAD.iml" filepath="$PROJECT_DIR$/dDPAD/dDPAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshlibrary/pullToRefreshlibrary.iml" filepath="$PROJECT_DIR$/pullToRefreshlibrary/pullToRefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshlibrary/pullToRefreshlibrary.iml" filepath="$PROJECT_DIR$/pullToRefreshlibrary/pullToRefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenuLib/slidingMenuLib.iml" filepath="$PROJECT_DIR$/slidingMenuLib/slidingMenuLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenuLib/slidingMenuLib.iml" filepath="$PROJECT_DIR$/slidingMenuLib/slidingMenuLib.iml" />
+    </modules>
+  </component>
+</project>
