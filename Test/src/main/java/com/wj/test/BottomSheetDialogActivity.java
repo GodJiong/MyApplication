@@ -24,7 +24,7 @@ public class BottomSheetDialogActivity extends AppCompatActivity implements View
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_bottom_sheet_dialog);
         ButterKnife.bind(this);
         showDialog();
     }

@@ -41,7 +41,7 @@ public class PaletteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_palette);
         ButterKnife.bind(this);
-        toolbar.setTitle("我是标题");
+        toolbar.setTitle("划出侧滑菜单");
     }
 
     @OnClick({R.id.item1, R.id.item2, R.id.item3, R.id.item4})
@@ -82,7 +82,7 @@ public class PaletteActivity extends AppCompatActivity {
             public void onGenerated(Palette palette) {
                 //返回一个 Swatch 样本对象，这个样本对象是Palette的一个内部类，它提供了一些获取最终颜色的方法。
                 Palette.Swatch swatch = palette.getVibrantSwatch();//获取暗的活力颜色（提取的6种色调中的某一个）
-                if (swatch != null) {
+                if (swatch != null) {//Palette的回调颜色中，其中 获得活力颜色（getVibrantSwatch()），是全部都可以返回值的，而其他的颜色对象，可能会返回null，不进行判断将会出现空指针异常。其次，还有获得亮活力颜色（getLightVibrantSwatch）返回null的几率小于其它返回的颜色，当然除了上面说的活力颜色。
                     int rgb = swatch.getRgb();//颜色的RBG值
                     int titleTextColor = swatch.getTitleTextColor();//标题文字的颜色值
                     int bodyTextColor = swatch.getBodyTextColor();//主体文字的颜色值

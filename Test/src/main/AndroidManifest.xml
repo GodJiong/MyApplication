@@ -9,25 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BottomSheetDialogActivity" />
-        <activity android:name=".DrawerLayoutActivity">
-
-        </activity>
-        <activity
-            android:name=".NavigationActivity"
-            android:label="@string/title_activity_navigation_view"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity
-            android:name=".PaletteActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+        <!--主界面-->
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--底部弹出框-->
+        <activity android:name=".BottomSheetDialogActivity" />
+        <!--自定义侧滑菜单-->
+        <activity
+            android:name=".DrawerLayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--系统侧滑菜单-->
+        <activity
+            android:name=".NavigationViewActivity"
+            android:label="@string/title_activity_navigation_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--调色板-->
+        <activity
+            android:name=".PaletteActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

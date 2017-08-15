@@ -4,47 +4,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolBar"
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
             android:gravity="center"
             android:text="主页"
             android:textColor="#000000"
             android:textSize="19sp" />
-    </RelativeLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="#ffffff"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/item1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="itme1" />
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="item1"
+            android:textSize="19sp" />
 
         <TextView
             android:id="@+id/item2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="itme2" />
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="item2"
+            android:textSize="19sp" />
 
         <TextView
             android:id="@+id/item3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="itme3" />
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="item3"
+            android:textSize="19sp" />
     </LinearLayout>
 </android.support.v4.widget.DrawerLayout>

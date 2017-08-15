@@ -19,7 +19,7 @@ import android.widget.Toast;
 /**
  * Created by wj on 2017/8/10 23:17
  */
-public class NavigationActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class NavigationViewActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;//侧滑菜单
     @Override
@@ -48,7 +48,7 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
 //        MenuItem item=navigationView.getMenu().getItem(0);//获取某个menu
 //        item.getItemId();//获取对应id
 //        item.setChecked(true);//设置 item 选中状态
-//        Toast.makeText(NavigationActivity.this, "id:"+id, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(NavigationViewActivity.this, "id:"+id, Toast.LENGTH_SHORT).show();
         //设置导航栏头部布局的方法
 //        View view = navigationView.getHeaderView(0);
 //        ImageView imageView = (ImageView) view.findViewById(R.id.imageView);//找到headerLayout中的图片
@@ -99,10 +99,10 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
-                Toast.makeText(NavigationActivity.this, "settings", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "settings", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.action_photos:
-                Toast.makeText(NavigationActivity.this, "photos", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "photos", Toast.LENGTH_SHORT).show();
                 break;
         }
         return true;
@@ -114,22 +114,22 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
     public boolean onNavigationItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.nav_camera:
-                Toast.makeText(NavigationActivity.this, "import", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "import", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_gallery:
-                Toast.makeText(NavigationActivity.this, "gallery", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "gallery", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_slideshow:
-                Toast.makeText(NavigationActivity.this, "slideshow", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "slideshow", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_manage:
-                Toast.makeText(NavigationActivity.this, "tools", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "tools", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_share:
-                Toast.makeText(NavigationActivity.this, "share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "share", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_send:
-                Toast.makeText(NavigationActivity.this, "send", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavigationViewActivity.this, "send", Toast.LENGTH_SHORT).show();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START); //点击后关闭
@@ -144,25 +144,25 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
         @Override
         public void onDrawerSlide(View drawerView, float slideOffset) {
             //这个就不演示了，只要打开抽屉会一直走这个方法
-//            Toast.makeText(NavigationActivity.this, "onDrawerSlide", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(NavigationViewActivity.this, "onDrawerSlide", Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void onDrawerOpened(View drawerView) {
             //打开状态
-            Toast.makeText(NavigationActivity.this, "onDrawerOpened", Toast.LENGTH_SHORT).show();
+            Toast.makeText(NavigationViewActivity.this, "onDrawerOpened", Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void onDrawerClosed(View drawerView) {
             //关闭状态
-            Toast.makeText(NavigationActivity.this, "onDrawerClosed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(NavigationViewActivity.this, "onDrawerClosed", Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void onDrawerStateChanged(int newState) {
             //无论关闭还是打开，这个方法都会分别走两次
-//            Toast.makeText(NavigationActivity.this, "onDrawerStateChanged", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(NavigationViewActivity.this, "onDrawerStateChanged", Toast.LENGTH_SHORT).show();
         }
     }
 }
