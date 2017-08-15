@@ -1,2 +1,2 @@
 # MyApplication
-此工程为订阅号demo代码，在AndroidManifest.xml中修改启动activity即可。详细内容请关注微信公众号：goodjiong
+此工程为订阅号demo代码。详细内容请关注微信公众号：goodjiong
