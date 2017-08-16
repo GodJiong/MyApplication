@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     Button button3;
     @BindView(R.id.button4)
     Button button4;
+    @BindView(R.id.button5)
+    Button button5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4})
+    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.button1:
@@ -42,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button4:
                 startActivity(new Intent(MainActivity.this, PaletteActivity.class));
+                break;
+            case R.id.button5:
+                startActivity(new Intent(MainActivity.this, BottomNavigationViewActivity.class));
                 break;
         }
     }
