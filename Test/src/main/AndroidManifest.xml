@@ -33,9 +33,12 @@
         <activity
             android:name=".PaletteActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <!--底部导航栏-->
         <activity
             android:name=".BottomNavigationViewActivity"
             android:label="@string/title_activity_bottom_navigation_view" />
+        <!--日期和时间选择器-->
+        <activity android:name=".DateAndTimeActivity" />
     </application>
 
 </manifest>
