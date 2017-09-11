@@ -1,14 +1,13 @@
-apply plugin: 'com.android.application'
-
+apply plugin: 'com.android.library'
+//上传jcenter需要的插件
+apply plugin: 'com.novoda.bintray-release'
 android {
     lintOptions {
         abortOnError false
     }
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
-
     defaultConfig {
-        applicationId "com.wj.test"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -16,11 +15,10 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -31,20 +29,16 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    //约束布局
-    //官方依赖库（包括tablayout，FloatingActionButton，snackbar,BottomSheetDialog,NavigationView,BottomNavigationView等控件）
-    //CardView
-    //Palette调色板
-    //butterknife添加库
-    //butterknife添加库
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:cardview-v7:25.3.1'
-    compile 'com.android.support:palette-v7:25.3.1'
-    compile 'com.jakewharton:butterknife:8.6.0'
-    compile 'com.android.support:support-v4:25.3.1'
     testCompile 'junit:junit:4.12'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
-    compile project(':demo')
+}
+publish {
+    userOrg = 'godjiong'      //bintray注册的用户名（重要！！！）
+    groupId = 'com.godjiong'         //compile引用时的第1部分groupId（重要！！！）
+    artifactId = 'demo'     //compile引用时的第2部分项目名（重要！！！）
+    publishVersion = '1.0.0'    //compile引用时的第3部分版本号（重要！！！）
+    desc = 'demo of godjiong '//项目描述（不重要）
+    repoName = "godjiong" //你的仓库名称，没有填写默认仓库是maven，但如果你没有maven这个名字的仓库则会报404（重要！！！）
+   website = 'https://github.com/GodJiong' //尽量模拟github地址，如果有地址就更好了（不重要）
 }
