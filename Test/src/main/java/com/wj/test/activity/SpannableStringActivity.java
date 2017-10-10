@@ -1,4 +1,4 @@
-package com.wj.test;
+package com.wj.test.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -27,6 +27,8 @@ import android.text.style.URLSpan;
 import android.text.style.UnderlineSpan;
 import android.view.View;
 import android.widget.TextView;
+
+import com.wj.test.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

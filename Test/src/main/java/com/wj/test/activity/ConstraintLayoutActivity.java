@@ -1,7 +1,9 @@
-package com.wj.test;
+package com.wj.test.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.wj.test.R;
 
 public class ConstraintLayoutActivity extends AppCompatActivity {
 

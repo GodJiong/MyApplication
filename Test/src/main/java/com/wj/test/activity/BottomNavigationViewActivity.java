@@ -1,4 +1,4 @@
-package com.wj.test;
+package com.wj.test.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import com.wj.test.R;
 
 import java.lang.reflect.Field;
 

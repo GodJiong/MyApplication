@@ -1,4 +1,4 @@
-package com.wj.test;
+package com.wj.test.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -14,6 +14,8 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.wj.test.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

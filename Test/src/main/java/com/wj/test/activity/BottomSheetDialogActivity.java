@@ -1,4 +1,4 @@
-package com.wj.test;
+package com.wj.test.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.wj.test.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

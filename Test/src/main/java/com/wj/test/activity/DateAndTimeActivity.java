@@ -1,4 +1,4 @@
-package com.wj.test;
+package com.wj.test.activity;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import com.wj.test.R;
 
 import java.util.Calendar;
 import java.util.Date;

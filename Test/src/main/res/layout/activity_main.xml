@@ -1,49 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.wj.test.MainActivity">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.wj.test.activity.MainActivity">
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="底部弹出框" />
+        android:text="底部弹出框"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="自定义侧滑菜单" />
+        android:text="自定义侧滑菜单"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="系统侧滑菜单" />
+        android:text="系统侧滑菜单"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="调色板" />
+        android:text="调色板"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="底部导航栏" />
+        android:text="底部导航栏"/>
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="日期和时间选择器" />
+        android:text="日期和时间选择器"/>
+
     <Button
         android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SpannableString" />
+        android:text="SpannableString"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画"/>
+
+    <Spinner
+        android:id="@+id/sp_cashier"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxjava"/>
+    <Button
+        android:id="@id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义view"/>
 </LinearLayout>
