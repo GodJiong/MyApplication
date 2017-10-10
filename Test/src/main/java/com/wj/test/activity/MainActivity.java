@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, SpannableStringActivity.class));
                 break;
             case R.id.button8:
-//                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
 
                 //方法一
 //                try {
