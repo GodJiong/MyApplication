@@ -36,6 +36,7 @@ public class MD5Util {
 			return null;
 		} finally {
 			try {
+
 				if (is != null)
 					is.close();
 			} catch (IOException e) {
