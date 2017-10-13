@@ -13,6 +13,5 @@
         <attr name="firstColor" format="color"/>
         <attr name="secondColor" format="color"/>
         <attr name="circleWith" format="dimension"/>
-        <attr name="speed" format="integer"/>
     </declare-styleable>
 </resources>

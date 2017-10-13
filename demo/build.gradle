@@ -42,5 +42,5 @@ publish {
     publishVersion = '1.0.0'    //compile引用时的第3部分版本号（重要！！！）
     desc = 'demo of godjiong '//项目描述（不重要）
     repoName = "godjiong" //你的仓库名称，没有填写默认仓库是maven，但如果你没有maven这个名字的仓库则会报404（重要！！！）
-   website = 'https://github.com/GodJiong' //尽量模拟github地址，如果有地址就更好了（不重要）
+    website = 'https://github.com/GodJiong' //尽量模拟github地址，如果有地址就更好了（不重要）
 }
