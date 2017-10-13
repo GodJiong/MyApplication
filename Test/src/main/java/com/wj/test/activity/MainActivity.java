@@ -260,6 +260,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<Cashier> adapter = new ArrayAdapter<>(this, R.layout.spinner_simple_item, cashierList);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sp_cashier.setAdapter(adapter);
-        sp_cashier.setSelection(2);
+        sp_cashier.setSelection(2);//
     }
 }
