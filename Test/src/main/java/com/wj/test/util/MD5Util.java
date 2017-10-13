@@ -35,6 +35,7 @@ public class MD5Util {
 			e.printStackTrace();
 			return null;
 		} finally {
+			
 			try {
 				if (is != null)
 					is.close();
