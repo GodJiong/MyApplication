@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/MyWork/WorkSpace/GitHub/Test/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\MyWork\\Tools\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\MyWork\\WorkSpace\\GitHub\\Test\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"palmread-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "palmread-lib",
+			"buildCommand" : "D:\\MyWork\\Tools\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\MyWork\\WorkSpace\\GitHub\\Test\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target palmread-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/MyWork/Tools/SDK/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/MyWork/Tools/SDK/ndk-bundle/sysroot -Dpalmread_lib_EXPORTS  -isystem D:/MyWork/Tools/SDK/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/MyWork/WorkSpace/GitHub/Test/src/main/cpp/palmread-lib.c",
+					"workingDirectory" : "D:/MyWork/WorkSpace/GitHub/Test/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "D:/MyWork/WorkSpace/GitHub/Test/build/intermediates/cmake/release/obj/arm64-v8a/libpalmread-lib.so",
+			"toolchain" : "4161918711"
+		}
+	},
+	"toolchains" : 
+	{
+		"4161918711" : 
+		{
+			"cCompilerExecutable" : "D:/MyWork/Tools/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/MyWork/Tools/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+Executable : D:\MyWork\Tools\SDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\MyWork\WorkSpace\GitHub\Test
+-BD:\MyWork\WorkSpace\GitHub\Test\.externalNativeBuild\cmake\release\x86
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=x86
+-DANDROID_NDK=D:\MyWork\Tools\SDK\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\MyWork\WorkSpace\GitHub\Test\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=D:\MyWork\Tools\SDK\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\MyWork\Tools\SDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_PLATFORM=android-15
+jvmArgs : 
+

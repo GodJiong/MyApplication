@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/MyWork/WorkSpace/GitHub/Test/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\MyWork\\Tools\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\MyWork\\WorkSpace\\GitHub\\Test\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"HelloWorld-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "HelloWorld",
+			"buildCommand" : "D:\\MyWork\\Tools\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\MyWork\\WorkSpace\\GitHub\\Test\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target HelloWorld",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/MyWork/Tools/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/MyWork/Tools/SDK/ndk-bundle/sysroot -DHelloWorld_EXPORTS  -isystem D:/MyWork/Tools/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/MyWork/WorkSpace/GitHub/Test/src/main/cpp/wj-lib.c",
+					"workingDirectory" : "D:/MyWork/WorkSpace/GitHub/Test/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "D:/MyWork/WorkSpace/GitHub/Test/build/intermediates/cmake/debug/obj/armeabi-v7a/libHelloWorld.so",
+			"toolchain" : "4161918711"
+		}
+	},
+	"toolchains" : 
+	{
+		"4161918711" : 
+		{
+			"cCompilerExecutable" : "D:/MyWork/Tools/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/MyWork/Tools/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

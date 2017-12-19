@@ -1,0 +1,9 @@
+# ninja log v5
+1	71	0	CMakeFiles/HelloWorld.dir/src/main/cpp/wj-lib.c.o	3aa85d3029f8f368
+72	130	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9
+1	159	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9
+2	193	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9
+1	58	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9
+2	57	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9
+1	64	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9
+2	170	0	../../../../build/intermediates/cmake/debug/obj/x86/libHelloWorld.so	811a84831a9e77b9

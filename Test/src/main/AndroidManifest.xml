@@ -4,8 +4,9 @@
 
     <!-- 上网权限 -->
     <uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:name=".util.NApplication"
         android:allowBackup="true"
@@ -46,11 +47,14 @@
         <activity android:name=".activity.DateAndTimeActivity"/>
         <!-- SpannableString给TextView增加趣味 -->
         <activity android:name=".activity.SpannableStringActivity"/>
-        <!--动画-->
+        <!-- 动画 -->
         <activity android:name=".activity.AnimationActivity"/>
-        <!--自定义view-->
+        <!-- 自定义view -->
         <activity android:name=".activity.CircleViewActivity"/>
         <activity android:name=".activity.ConstraintLayoutActivity"/>
+        <!--zi-->
+        <activity android:name=".activity.CustomWidgetActivity">
+        </activity>
     </application>
 
 </manifest>

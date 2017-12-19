@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.wj.test.ObserverModel.ChildObservable;
 import com.wj.test.ObserverModel.ChildObserver;
 import com.wj.test.R;
+import com.wj.test.util.NdkHelper;
 import com.wj.test.util.StatusBarUtil;
 
 import java.util.ArrayList;
@@ -56,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
     Button button9;
     @BindView(R.id.button10)
     Button button10;
+    @BindView(R.id.button11)
+    Button button11;
+    @BindView(R.id.button12)
+    Button button12;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10})
+    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.button1:
@@ -228,6 +234,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button10:
                 startActivity(new Intent(MainActivity.this, CircleViewActivity.class));
+                break;
+            case R.id.button11:
+                Toast.makeText(this, NdkHelper.GetStringFromC("这句话"), Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button12:
+                startActivity(new Intent(MainActivity.this, CustomWidgetActivity.class));
                 break;
         }
     }

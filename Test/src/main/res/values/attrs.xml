@@ -14,4 +14,9 @@
         <attr name="secondColor" format="color"/>
         <attr name="circleWith" format="dimension"/>
     </declare-styleable>
+    <!--自定义控件-->
+    <declare-styleable name="CompoundView">
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+    </declare-styleable>
 </resources>

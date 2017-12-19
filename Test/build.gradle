@@ -13,7 +13,12 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-
+        //指定输出ABI类型
+        externalNativeBuild {
+            cmake {
+                abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+            }
+        }
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         vectorDrawables.useSupportLibrary = true
@@ -24,7 +29,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
 }
+
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')

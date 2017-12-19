@@ -1,0 +1,3 @@
+D:/MyWork/WorkSpace/GitHub/Test/.externalNativeBuild/cmake/release/mips64/CMakeFiles/palmread-lib.dir
+D:/MyWork/WorkSpace/GitHub/Test/.externalNativeBuild/cmake/release/mips64/CMakeFiles/edit_cache.dir
+D:/MyWork/WorkSpace/GitHub/Test/.externalNativeBuild/cmake/release/mips64/CMakeFiles/rebuild_cache.dir
